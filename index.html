@@ -57,12 +57,22 @@
             <h1>Reported posts</h1>
         </div>
     </main>
-    <section class="question-section my-4">
+    <section class="container my-4 mx-auto">
         <h4 class="text-center my-3 text-uppercase">How does Javascript work?</h4>
-        <p class="text-center">Javascript is the programming language at the heart of the modern web.Javascript is a
-            language that can handles only one task at a time.</p>
-        <h4 class="text-center my-3 text-uppercase">How does Javascript evenloop do?</h4>
-        <p></p>
+        <p class="text-center">Javascript is the programming language at the heart of the modern web.Everything in JS
+            happens inside an execution context.JS is not possible without this beautiful execution
+            context.Javascript is a
+            language that can handles only one task at a time and in a specific order.That means it can only go to
+            the
+            next line once the current execution line stop.That why it is called a synchronous single threaded
+            language.Also JS is a scripting language that allows any user to implement any kind of complex features on
+            web pages.
+            The most common uses of JS is to modify the Html and Css code dynamically.In that case JS use the DOM API.
+        </p>
+        <h4 class="text-center my-3 text-uppercase">How does Javascript event loop do?</h4>
+        <p>Javascript gives us an illusion about the event loop which is that, event loop is multithreaded.Which is not
+            true because event loop is single threaded.In event loop case, it constantly check the call stack is empty
+            or not. If it is empty then a new function are added.Otherwise the current function call is execute.</p>
         <h4 class="text-center my-3 text-uppercase">Difference between local storage and session storage?</h4>
         <p></p>
     </section>
